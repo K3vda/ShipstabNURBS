@@ -2,7 +2,7 @@ module ShipstabNURBS
 
 using Plots
 
-export BasisFuns,Findspan,
+export BasisFuns,FindSpan,
 nrbplot3,nrbplot,
 bsplevalc,bsplevals,bsplder,
 nrbevalc,nrbevals,nrbder,

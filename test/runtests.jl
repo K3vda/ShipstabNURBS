@@ -5,9 +5,9 @@ using Test
 
 @testset "FindSpan" begin
     U = [0 0 0 0 2/5 3/5 3/5 1 1 1 1];
-    t1,s1 = Findspan(0,U)
-    t2,s2 = Findspan(2/5,U)
-    t3,s3 = Findspan(1,U)
+    t1,s1 = FindSpan(0,U)
+    t2,s2 = FindSpan(2/5,U)
+    t3,s3 = FindSpan(1,U)
   @test t1 == 4
   @test s1 == 3
   @test t2 == 7
